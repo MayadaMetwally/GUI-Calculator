@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<systemvariables version="4">
+  <namespace name="" comment="" interface="">
+    <namespace name="Calculator" comment="" interface="">
+      <namespace name="Display" comment="" interface="">
+        <variable anlyzLocal="2" readOnly="false" valueSequence="false" unit="" name="button_0" comment="" bitcount="32" isSigned="false" encoding="65001" type="int" />
+        <variable anlyzLocal="2" readOnly="false" valueSequence="false" unit="" name="button_1" comment="" bitcount="32" isSigned="false" encoding="65001" type="int" />
+        <variable anlyzLocal="2" readOnly="false" valueSequence="false" unit="" name="button_2" comment="" bitcount="32" isSigned="false" encoding="65001" type="int" />
+        <variable anlyzLocal="2" readOnly="false" valueSequence="false" unit="" name="button_3" comment="" bitcount="32" isSigned="false" encoding="65001" type="int" />
+        <variable anlyzLocal="2" readOnly="false" valueSequence="false" unit="" name="button_4" comment="" bitcount="32" isSigned="false" encoding="65001" type="int" />
+        <variable anlyzLocal="2" readOnly="false" valueSequence="false" unit="" name="button_5" comment="" bitcount="32" isSigned="false" encoding="65001" type="int" />
+        <variable anlyzLocal="2" readOnly="false" valueSequence="false" unit="" name="button_6" comment="" bitcount="32" isSigned="false" encoding="65001" type="int" />
+        <variable anlyzLocal="2" readOnly="false" valueSequence="false" unit="" name="button_7" comment="" bitcount="32" isSigned="false" encoding="65001" type="int" />
+        <variable anlyzLocal="2" readOnly="false" valueSequence="false" unit="" name="button_8" comment="" bitcount="32" isSigned="false" encoding="65001" type="int" />
+        <variable anlyzLocal="2" readOnly="false" valueSequence="false" unit="" name="button_9" comment="" bitcount="32" isSigned="false" encoding="65001" type="int" />
+        <variable anlyzLocal="2" readOnly="false" valueSequence="false" unit="" name="button_clear" comment="" bitcount="32" isSigned="true" encoding="65001" type="int" />
+        <variable anlyzLocal="2" readOnly="false" valueSequence="false" unit="" name="button_div" comment="" bitcount="32" isSigned="true" encoding="65001" type="int" />
+        <variable anlyzLocal="2" readOnly="false" valueSequence="false" unit="" name="button_equal" comment="" bitcount="32" isSigned="true" encoding="65001" type="int" />
+        <variable anlyzLocal="2" readOnly="false" valueSequence="false" unit="" name="button_model" comment="" bitcount="32" isSigned="true" encoding="65001" type="int" />
+        <variable anlyzLocal="2" readOnly="false" valueSequence="false" unit="" name="button_mul" comment="" bitcount="32" isSigned="true" encoding="65001" type="int" />
+        <variable anlyzLocal="2" readOnly="false" valueSequence="false" unit="" name="button_sub" comment="" bitcount="32" isSigned="true" encoding="65001" type="int" />
+        <variable anlyzLocal="2" readOnly="false" valueSequence="false" unit="" name="buuton_add" comment="" bitcount="32" isSigned="true" encoding="65001" type="int" />
+        <variable anlyzLocal="2" readOnly="false" valueSequence="false" unit="" name="outputBox" comment="" bitcount="0" isSigned="true" encoding="65001" type="string" startValue=" " />
+      </namespace>
+      <variable anlyzLocal="2" readOnly="false" valueSequence="false" unit="" name="Op1" comment="" bitcount="64" isSigned="true" encoding="65001" type="float" />
+      <variable anlyzLocal="2" readOnly="false" valueSequence="false" unit="" name="Op2" comment="" bitcount="64" isSigned="true" encoding="65001" type="float" />
+      <variable anlyzLocal="2" readOnly="false" valueSequence="false" unit="" name="Operator" comment="this what will hold the operation to be calculated" bitcount="32" isSigned="false" encoding="65001" type="int" startValue="55" minValue="0" minValuePhys="0" maxValue="55" maxValuePhys="55">
+        <valuetable name="Operatot_options" definesMinMax="true">
+          <valuetableentry value="0" lowerBound="0" upperBound="0" description="Addition" displayString="Addition" />
+          <valuetableentry value="1" lowerBound="1" upperBound="1" description="subtraction" displayString="subtraction" />
+          <valuetableentry value="2" lowerBound="2" upperBound="2" description="multiplication" displayString="multiplication" />
+          <valuetableentry value="3" lowerBound="3" upperBound="3" description="division" displayString="division" />
+          <valuetableentry value="55" lowerBound="55" upperBound="55" description="invalid" displayString="invalid" />
+        </valuetable>
+      </variable>
+      <variable anlyzLocal="2" readOnly="false" valueSequence="false" unit="" name="Result" comment="" bitcount="64" isSigned="true" encoding="65001" type="float" startValue="0" />
+    </namespace>
+  </namespace>
+</systemvariables>
